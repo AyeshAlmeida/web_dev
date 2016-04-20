@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	float: left;
+	background: darkgrey;
+}
+
+main{
+	background: lightgrey;
+}
+
+footer{
+	background: grey;
+	clear: both; /*to make footer appliy to every element of main*/
+}
