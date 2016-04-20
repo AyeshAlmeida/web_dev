@@ -13,7 +13,7 @@ p{
 	color: #00ff00;
 }
 
-
+/*classes*/
 .new{
 	border: 2px solid maroon;
 	text-align: center;
@@ -36,3 +36,16 @@ p.first{
 	background: white;
 }
 
+/*psedo classes*/
+a{
+	color: #12a23f;
+}
+
+a:visited{
+	color: tomato;
+}
+
+a:hover{
+	color:green;
+	text-decoration: underline;
+}
