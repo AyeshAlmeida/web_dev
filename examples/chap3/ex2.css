@@ -49,3 +49,28 @@ a:hover{
 	color:green;
 	text-decoration: underline;
 }
+
+/*styles for complex-tags*/
+li{
+	color: brown;
+}
+
+ol{
+	border: solid black;
+	border-radius: 10px;
+}
+
+ol li{
+	color: cyan;
+}
+
+.content li{
+	color: tomato;
+}
+
+li:first-child{
+	background: yellow;
+}
+li:nth-child(3){
+	background: orange;
+}
