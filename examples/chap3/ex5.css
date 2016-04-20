@@ -1,0 +1,20 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 100%;
+}
+
+h1{
+	font-size: xx-larger; /*relative to base size*/
+}
+
+h2{
+	font-size: x-large; /*relative to base size*/
+}
+
+.important{
+	font-size: larger;
+}
+
+.onePointtwo{
+	font-size: 1.2em; /*1.2 times as base size*/
+}
