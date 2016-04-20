@@ -12,9 +12,47 @@ header .container, main .container, footer .container{
 }
 
 header{
+	overflow: auto;
 	background: white;
+}
+
+/*floating header elements*/
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
 }
 
 main{
 	background: white;
+	overflow: auto;
+}
+
+/*floating the main elements*/
+div.maincontent{
+	float: left;
+	width: 570px;
+}
+
+div.mainimage{
+	float: right;
+	width: 285px;
+}
+
+footer{
+	overflow: auto;
+}
+/*floating footer elements*/
+div.contact{
+	float: left;
+	width: 570px;
+}
+
+div.sitemap{
+	float: right;
+	width: 285px;
 }
