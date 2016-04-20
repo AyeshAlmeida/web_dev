@@ -1,0 +1,30 @@
+body{
+	background: blue;
+	margin: auto;
+}
+
+main{
+	width: 500px;
+	margin:auto;
+	background: grey;
+	border: 3px solid red;
+	padding: 5px;
+	overflow: auto;
+}
+
+nav{
+	width: 100px;
+	float: right;
+}
+
+nav p{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+	float: left;
+	width: 380px;
+	padding: 10px;
+}
