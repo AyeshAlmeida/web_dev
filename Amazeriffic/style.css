@@ -1,11 +1,58 @@
 body{
 	background: #f9e933;
 	font-family: 'Droid Sans',sans-serif;
+	font-size: 100%; /*base font size*/
+}
+
+h1.styleitalic{
+	font-style: italic;
+	color: 	#B22222;
+}
+
+p.red{
+	color: red;
+}
+
+a{
+	color: red;
 }
 
 h1,h2,h3,h4{
 	font-family: 'Ubuntu',sans-serif;
 }
+
+/*setting heading sizes and margins*/
+h1{
+	font-size: xx-large;
+	margin: 20px 10px 20px 0px;
+}
+
+h2{
+	font-size: x-large;
+	margin: 18px 9px 18px 0px;
+}
+
+
+h3{
+	font-size: large;
+	margin: 16px 8px 16px 0px;
+}
+
+h4{
+	font-size: small;
+	margin: 14px 7px 14px 0px;
+}
+
+h5{
+	font-size: 1.2em;
+	margin: 12px 6px 12px 0px;
+}
+
+h6{
+	font-size: xx-small;
+	margin: 10px 5px 10px 0px;
+}
+
 
 header, main, footer{
 	min-width: 855px;
@@ -61,3 +108,4 @@ div.sitemap{
 	float: right;
 	width: 285px;
 }
+
