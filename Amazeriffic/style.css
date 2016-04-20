@@ -8,6 +8,15 @@ h1.styleitalic{
 	font-style: italic;
 	color: 	#B22222;
 }
+/*problems - FAQ*/
+h3.stylenew{
+	font-style: italic;
+	color:#25383c;
+}
+/*answers - FAQ*/
+div.newstyle{
+	background: #BCC6CC;
+}
 
 p.red{
 	color: red;
@@ -17,6 +26,22 @@ a{
 	color: red;
 }
 
+.p_width{
+	width: 365px;
+}
+
+.li_float_left{
+	float: left;
+	width: 100px;
+}
+
+.li_float_right{
+	float: right;
+	width: 100px;
+}
+nav a{
+	font-size: large;
+}
 h1,h2,h3,h4{
 	font-family: 'Ubuntu',sans-serif;
 }
@@ -56,11 +81,13 @@ h6{
 
 header, main, footer{
 	min-width: 855px;
+	
 }
 
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
+	padding: 10px;
 }
 
 header{
@@ -71,7 +98,7 @@ header{
 /*floating header elements*/
 header h1{
 	float: left;
-	width: 570px;
+	width: 520px;
 }
 
 header nav{
@@ -82,19 +109,24 @@ header nav{
 main{
 	background: white;
 	overflow: auto;
+	border: 1px solid grey;
 }
 
 /*floating the main elements*/
 div.maincontent{
 	float: left;
-	width: 570px;
+	width: 480px;
 }
 
 div.mainimage{
 	float: right;
-	width: 285px;
+	width: 300px;
 }
 
+.image{
+	padding: 10px;
+	margin: auto;
+}
 footer{
 	overflow: auto;
 }

@@ -25,7 +25,7 @@
 				</a> |
 				<a href="#">
 					Support
-				</a> |
+				</a> 
 			</nav>
 		</div>
 	</header>
@@ -40,7 +40,7 @@
 					Amazeriffic will change your life!
 				</h2>
 				<!--content-->
-				<p>
+				<p class="p_width">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis convallis risus. Curabitur imperdiet porttitor ex, et condimentum mi congue id. Vivamus in commodo orci. Ut at lacus et nisi pulvinar lobortis. Sed eleifend mi eget magna ornare rutrum.
 				</p>
 
@@ -66,7 +66,9 @@
 			</div>
 
 			<!--adding image-->
-			<img src="lightbulb.png" alt="image of a lightbulb." class="mainimage">
+			<div class="mainimage">
+				<img src="lightbulb.png" alt="image of a lightbulb." class="image">
+			</div>
 		</div>
 	</main>
 
@@ -93,26 +95,30 @@
 				<h5>
 					Sitemap
 				</h5>
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="#">About Us</a>
-					</li>
-					<li>
-						<a href="#">Privacy</a>
-					</li>
-					<li>
-						<a href="#">Support</a>
-					</li>
-					<li>
-						<a href="faq.html">FAQ</a>
-					</li>
-					<li>
-						<a href="#">Careers</a>
-					</li>
-				</ul>
+				<div>
+					<ul class="li_float_left">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#">About Us</a>
+						</li>
+						<li>
+							<a href="#">Privacy</a>
+						</li>
+					</ul>
+					<ul class="li_float_right">
+						<li>
+							<a href="#">Support</a>
+						</li>
+						<li>
+							<a href="faq.html">FAQ</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>
