@@ -1,0 +1,38 @@
+body{
+	width: 800px;
+	background: lightcyan;
+	color: #ff1a0c;
+	margin: auto;
+}
+
+span{
+	color: #0000ff;
+}
+
+p{
+	color: #00ff00;
+}
+
+
+.new{
+	border: 2px solid maroon;
+	text-align: center;
+	padding: 10px;
+}
+
+.newp{
+	border: 1px dashed blue;
+}
+
+.first{
+	background: #000000;
+	color: #ff0000;
+}
+
+p.first{
+	color: blue;
+	margin:10px;
+	padding: 20px;
+	background: white;
+}
+
