@@ -8,6 +8,11 @@ h1.styleitalic{
 	font-style: italic;
 	color: 	#B22222;
 }
+/*main - FAQ*/
+.maincontentFAQ{
+	background: #C3FDB8;
+	margin-bottom: 1px;
+}
 /*problems - FAQ*/
 h3.stylenew{
 	font-style: italic;
@@ -30,15 +35,6 @@ a{
 	width: 365px;
 }
 
-.li_float_left{
-	float: left;
-	width: 100px;
-}
-
-.li_float_right{
-	float: right;
-	width: 100px;
-}
 nav a{
 	font-size: large;
 }
@@ -116,11 +112,13 @@ main{
 div.maincontent{
 	float: left;
 	width: 480px;
+	margin-bottom: 1px;
 }
 
 div.mainimage{
 	float: right;
 	width: 300px;
+	margin-bottom: 1px;
 }
 
 .image{
@@ -139,5 +137,18 @@ div.contact{
 div.sitemap{
 	float: right;
 	width: 285px;
+}
+
+
+.li_float_left{
+	float: left;
+	width: 80px;
+	margin-bottom:1px;
+}
+
+.li_float_right{
+	float: right;
+	width: 120px;
+	margin-bottom:1px;
 }
 
