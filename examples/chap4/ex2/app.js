@@ -15,8 +15,16 @@ var main = function(){
 	});
 
 	$(".comment-input input").on("keypress",function(event){
+		var $new_comment;
 		if(event.keyCode === 13){
-			console.log("Hello, I am the Key-bord" + event.keyCode);
+			if($(".comment-input input").val() !== ""){
+			$new_comment = $("<p>").text($(".comment-input input").val());
+			$(".comments").append($new_comment);
+			$(".comment-input input").val("");
+		}
+		else{
+			window.alert("No comments given. Please, add a comment.");
+		}
 		}
 	})
 };
