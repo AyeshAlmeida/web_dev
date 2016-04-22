@@ -81,6 +81,10 @@ main .content-right{
 	width: 570px;
 }
 
+.comment-input button:hover{
+	cursor: pointer;
+}
+
 .comments p:nth-child(even){
 	background: #3090c7;
 }
