@@ -68,6 +68,7 @@ main{
 
 main .container{
 	border-top: 1px solid grey;
+	background: #4e9058;
 }
 
 main .content-left{
@@ -80,12 +81,12 @@ main .content-right{
 	width: 570px;
 }
 
-.comment-input{
-
+.comments p:nth-child(even){
+	background: #3090c7;
 }
 
-.comments{
-
+.comments p:nth-child(odd){
+	background: gainsboro;
 }
 
 /*floating footer elements*/
