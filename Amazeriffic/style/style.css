@@ -129,6 +129,26 @@ div.mainimage{
 	padding: 10px;
 	margin: auto;
 }
+
+
+/*span in tab-elements*/
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0px 0px;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+/*active tab*/
+.tabs a span.active{
+	background: #eee;
+}
+
+
+
 footer{
 	overflow: auto;
 }
