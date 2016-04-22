@@ -1,0 +1,94 @@
+body{
+	background: #ffe9ec;
+}
+
+/*setting font sizes and margins for headings*/
+h1{
+	font-size: 32px;
+	margin: 8px 0px 8px 0px;
+}
+
+h2{
+	font-size: 24px;
+	margin: 10px 0px 10px 0px;
+}
+
+h3{
+	font-size: 19px;
+	margin: 12px 0px 12px 0px;
+}
+
+h4{
+	font-size: 16px;
+	margin: 16px 0px 16px 0px;
+}
+
+h5{
+	font-size: 14px;
+	margin: 20px 0px 20px 0px;
+}
+
+h6{
+	font-size: 13px;
+	margin: 28px 0px 28px 0px;
+}
+
+
+/*setting min-width of header,main,footer elements*/
+header, main, footer{
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container{
+	max-width: 855px;
+	margin:auto;
+}
+
+/*floating header elements*/
+header{
+	overflow: auto;
+}
+
+header h1{
+	float: left;
+	width: 285px;
+}
+
+header p{
+	float: right;
+	width: 570px;
+	margin-top: 20px;
+}
+
+
+/*floating main-elements*/
+main{
+	overflow: auto;
+}
+
+main .container{
+	border-top: 1px solid grey;
+}
+
+main .content-left{
+	float: left;
+	width: 285px;
+}
+
+main .content-right{
+	float: right;
+	width: 570px;
+}
+
+.comment-input{
+
+}
+
+.comments{
+
+}
+
+/*floating footer elements*/
+footer .container{
+	border-top: 1px solid grey;
+}
