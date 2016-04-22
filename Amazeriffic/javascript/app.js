@@ -2,28 +2,24 @@ var main = function(){
 
 	"use strict";
 
-	$(".tabs a:nth-child(1)").on("click",function(){
-		//make all the tabs inactive
+	var activeTab = function(number){
+		var selectedtab = ".tabs a:nth-child("+number+") span";
 		$(".tabs span").removeClass("active");
-		//make first tab active
-		$(".tabs a:nth-child(1) span").addClass("active");
-		//empty the main content - we can create it
-		$("main .content").empty();
-		//return false - we dont follow the link
+		$(selectedtab).addClass("active");
+	};
+
+	$(".tabs a:nth-child(1)").on("click",function(){
+		activeTab(1);
 		return false;
 	});
 
 	$(".tabs a:nth-child(2)").on("click",function(){
-		$(".tabs span").removeClass("active");
-		$(".tabs a:nth-child(2) span").addClass("active");
-		$("main .content").empty();
+		activeTab(2);
 		return false;
 	});
 
 	$(".tabs a:nth-child(3)").on("click",function(){
-		$(".tabs span").removeClass("active");
-		$(".tabs a:nth-child(3) span").addClass("active");
-		$("main .content").empty();
+		activeTab(3);
 		return false;
 	});
 
