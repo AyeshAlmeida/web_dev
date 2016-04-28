@@ -2,7 +2,7 @@ var main = function(){
 	"use strict";
 
 	//todo-list
-	var todo = [
+	var toDos = [
 		"Finish reading books.",
 		"Take Mom to park.",
 		"Answer emails.",
@@ -11,11 +11,16 @@ var main = function(){
 		"Get groceries."
 	];
 
-	//listenr is impemented using for-each loop
-	$(".tabs a span").toArray().forEach(function (element){
-		$(element).on("click",function(){
+	var tab;
+
+	//listener is impemented using for-each loop
+	var arr = $(".tabs a span").toArray();
+	for(tab=1;tab<=3;tab++){
+		var element = arr[tab];
+	
+		$(element).on("click",function (){
 			
-			var $element = $(element);
+			var $element = $(element),$content;
 
 			$(".tabs a span").removeClass("active");
 			$(element).addClass("active");
@@ -27,12 +32,21 @@ var main = function(){
 				console.log("First Element Selected.");
 			}else if($element.parent().is(":nth-child(2)")){
 				console.log("Second Element Selected.");
+
+				//adding new 'unordered-list'
+				$content = $("ul");
+				toDos.forEach(function (todo){
+					$content.append($("li").text(todo));
+				});
+
+				$("main .content").append($content);
+
 			}else if($element.parent().is(":nth-child(3)")){
 				console.log("Third Element Selected.");
 			}
 			return false;
 		});
-	});
+	};
 };
 
 $(document).ready(main);
